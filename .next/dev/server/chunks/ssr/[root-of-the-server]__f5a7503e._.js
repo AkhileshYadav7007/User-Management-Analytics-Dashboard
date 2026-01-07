@@ -35,96 +35,96 @@ __turbopack_context__.s([
 const MOCK_USERS = [
     {
         id: '1',
-        name: 'John Doe',
-        email: 'john@example.com',
+        name: 'Rajesh Kumar',
+        email: 'rajesh.kumar@example.com',
         status: 'Active',
         avatar: 'https://i.pravatar.cc/150?u=1',
         createdAt: '2023-10-01T10:00:00Z'
     },
     {
         id: '2',
-        name: 'Jane Smith',
-        email: 'jane@example.com',
+        name: 'Priya Sharma',
+        email: 'priya.sharma@example.com',
         status: 'Inactive',
         avatar: 'https://i.pravatar.cc/150?u=2',
         createdAt: '2023-11-15T14:30:00Z'
     },
     {
         id: '3',
-        name: 'Alice Johnson',
-        email: 'alice@example.com',
+        name: 'Amit Patel',
+        email: 'amit.patel@example.com',
         status: 'Active',
         avatar: 'https://i.pravatar.cc/150?u=3',
         createdAt: '2023-12-05T09:15:00Z'
     },
     {
         id: '4',
-        name: 'Bob Brown',
-        email: 'bob@example.com',
+        name: 'Sneha Reddy',
+        email: 'sneha.reddy@example.com',
         status: 'Active',
         avatar: 'https://i.pravatar.cc/150?u=4',
         createdAt: '2024-01-10T16:45:00Z'
     },
     {
         id: '5',
-        name: 'Charlie Davis',
-        email: 'charlie@example.com',
+        name: 'Vikram Singh',
+        email: 'vikram.singh@example.com',
         status: 'Inactive',
         avatar: 'https://i.pravatar.cc/150?u=5',
         createdAt: '2024-02-20T11:20:00Z'
     },
     {
         id: '6',
-        name: 'Diana Prince',
-        email: 'diana@example.com',
+        name: 'Ananya Iyer',
+        email: 'ananya.iyer@example.com',
         status: 'Active',
         avatar: 'https://i.pravatar.cc/150?u=6',
         createdAt: '2024-03-12T08:00:00Z'
     },
     {
         id: '7',
-        name: 'Edward Norton',
-        email: 'edward@example.com',
+        name: 'Arjun Mehta',
+        email: 'arjun.mehta@example.com',
         status: 'Active',
         avatar: 'https://i.pravatar.cc/150?u=7',
         createdAt: '2024-03-15T13:10:00Z'
     },
     {
         id: '8',
-        name: 'Fiona Gallagher',
-        email: 'fiona@example.com',
+        name: 'Neha Gupta',
+        email: 'neha.gupta@example.com',
         status: 'Inactive',
         avatar: 'https://i.pravatar.cc/150?u=8',
         createdAt: '2024-03-20T17:50:00Z'
     },
     {
         id: '9',
-        name: 'George Miller',
-        email: 'george@example.com',
+        name: 'Rohan Verma',
+        email: 'rohan.verma@example.com',
         status: 'Active',
         avatar: 'https://i.pravatar.cc/150?u=9',
         createdAt: '2024-04-01T12:00:00Z'
     },
     {
         id: '10',
-        name: 'Hannah Abbott',
-        email: 'hannah@example.com',
+        name: 'Kavya Nair',
+        email: 'kavya.nair@example.com',
         status: 'Active',
         avatar: 'https://i.pravatar.cc/150?u=10',
         createdAt: '2024-04-05T15:30:00Z'
     },
     {
         id: '11',
-        name: 'Ian Wright',
-        email: 'ian@example.com',
+        name: 'Sanjay Desai',
+        email: 'sanjay.desai@example.com',
         status: 'Inactive',
         avatar: 'https://i.pravatar.cc/150?u=11',
         createdAt: '2024-04-10T09:40:00Z'
     },
     {
         id: '12',
-        name: 'Jack Reacher',
-        email: 'jack@example.com',
+        name: 'Aisha Khan',
+        email: 'aisha.khan@example.com',
         status: 'Active',
         avatar: 'https://i.pravatar.cc/150?u=12',
         createdAt: '2024-04-15T14:20:00Z'
@@ -470,7 +470,7 @@ function DashboardLayout({ children }) {
     const [mounted, setMounted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         setMounted(true);
-        // Apply dark mode class on mount and when it changes
+        // Apply dark mode // but now this is not working
         if (isDarkMode) {
             document.documentElement.classList.add("dark");
         } else {
@@ -479,7 +479,6 @@ function DashboardLayout({ children }) {
     }, [
         isDarkMode
     ]);
-    // Prevent hydration mismatch
     if (!mounted) {
         return null;
     }
