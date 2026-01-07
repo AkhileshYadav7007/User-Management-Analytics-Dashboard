@@ -223,13 +223,19 @@ useEffect(() => {
 ## 📸 Screenshots
 
 ### Users List Page (Light Mode)
-> Comprehensive user management with search, filters, and pagination
+> Comprehensive user management with search, filters, and pagination 
+<img width="960" height="421" alt="image" src="https://github.com/user-attachments/assets/d6af0413-d23c-4df8-b7ea-0d44b8092500" />
+
 
 ### User Details Page (Dark Mode)
-> Detailed user profiles with edit capabilities and activity tracking
+> Detailed user profiles with edit capabilities and activity tracking 
+>Note: Dark Mode is not working..
+<img width="960" height="421" alt="image" src="https://github.com/user-attachments/assets/d6af0413-d23c-4df8-b7ea-0d44b8092500" />
 
 ### Analytics Dashboard
-> Beautiful charts showing user metrics and trends
+> Beautiful charts showing user metrics and trends 
+<img width="960" height="420" alt="image" src="https://github.com/user-attachments/assets/2b4e4ec0-bbcf-4e8b-a089-d585459c7fc5" />
+
 
 ---
 
