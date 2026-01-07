@@ -1,0 +1,108 @@
+import { User } from './types';
+
+export const MOCK_USERS: User[] = [
+  {
+    id: '1',
+    name: 'John Doe',
+    email: 'john@example.com',
+    status: 'Active',
+    avatar: 'https://i.pravatar.cc/150?u=1',
+    createdAt: '2023-10-01T10:00:00Z',
+  },
+  {
+    id: '2',
+    name: 'Jane Smith',
+    email: 'jane@example.com',
+    status: 'Inactive',
+    avatar: 'https://i.pravatar.cc/150?u=2',
+    createdAt: '2023-11-15T14:30:00Z',
+  },
+  {
+    id: '3',
+    name: 'Alice Johnson',
+    email: 'alice@example.com',
+    status: 'Active',
+    avatar: 'https://i.pravatar.cc/150?u=3',
+    createdAt: '2023-12-05T09:15:00Z',
+  },
+  {
+    id: '4',
+    name: 'Bob Brown',
+    email: 'bob@example.com',
+    status: 'Active',
+    avatar: 'https://i.pravatar.cc/150?u=4',
+    createdAt: '2024-01-10T16:45:00Z',
+  },
+  {
+    id: '5',
+    name: 'Charlie Davis',
+    email: 'charlie@example.com',
+    status: 'Inactive',
+    avatar: 'https://i.pravatar.cc/150?u=5',
+    createdAt: '2024-02-20T11:20:00Z',
+  },
+  {
+    id: '6',
+    name: 'Diana Prince',
+    email: 'diana@example.com',
+    status: 'Active',
+    avatar: 'https://i.pravatar.cc/150?u=6',
+    createdAt: '2024-03-12T08:00:00Z',
+  },
+  {
+    id: '7',
+    name: 'Edward Norton',
+    email: 'edward@example.com',
+    status: 'Active',
+    avatar: 'https://i.pravatar.cc/150?u=7',
+    createdAt: '2024-03-15T13:10:00Z',
+  },
+  {
+    id: '8',
+    name: 'Fiona Gallagher',
+    email: 'fiona@example.com',
+    status: 'Inactive',
+    avatar: 'https://i.pravatar.cc/150?u=8',
+    createdAt: '2024-03-20T17:50:00Z',
+  },
+  {
+    id: '9',
+    name: 'George Miller',
+    email: 'george@example.com',
+    status: 'Active',
+    avatar: 'https://i.pravatar.cc/150?u=9',
+    createdAt: '2024-04-01T12:00:00Z',
+  },
+  {
+    id: '10',
+    name: 'Hannah Abbott',
+    email: 'hannah@example.com',
+    status: 'Active',
+    avatar: 'https://i.pravatar.cc/150?u=10',
+    createdAt: '2024-04-05T15:30:00Z',
+  },
+  {
+    id: '11',
+    name: 'Ian Wright',
+    email: 'ian@example.com',
+    status: 'Inactive',
+    avatar: 'https://i.pravatar.cc/150?u=11',
+    createdAt: '2024-04-10T09:40:00Z',
+  },
+  {
+    id: '12',
+    name: 'Jack Reacher',
+    email: 'jack@example.com',
+    status: 'Active',
+    avatar: 'https://i.pravatar.cc/150?u=12',
+    createdAt: '2024-04-15T14:20:00Z',
+  }
+];
+
+export const MOCK_ACTIVITY = [
+  { id: '1', action: 'Logged in', timestamp: '2024-05-01T10:00:00Z' },
+  { id: '2', action: 'Updated profile', timestamp: '2024-05-01T11:30:00Z' },
+  { id: '3', action: 'Viewed dashboard', timestamp: '2024-05-02T09:15:00Z' },
+  { id: '4', action: 'Changed password', timestamp: '2024-05-03T16:45:00Z' },
+  { id: '5', action: 'Logged out', timestamp: '2024-05-03T18:00:00Z' },
+];
