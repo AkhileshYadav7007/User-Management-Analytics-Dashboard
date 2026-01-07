@@ -114,7 +114,7 @@ Assessment Task/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AkhileshYadav7007/AI-Powered-Research-Assistant.git
+   git clone https://github.com/AkhileshYadav7007/User-Management-Analytics-Dashboard.git
    cd "Assessment Task"
    ```
 
@@ -271,7 +271,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Akhilesh Yadav**
 
 - GitHub: [@AkhileshYadav7007](https://github.com/AkhileshYadav7007)
-- Project Link: [AI-Powered-Research-Assistant](https://github.com/AkhileshYadav7007/AI-Powered-Research-Assistant)
+- Project Link: https://github.com/AkhileshYadav7007/User-Management-Analytics-Dashboard.git
 
 ---
 
